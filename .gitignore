@@ -1,0 +1,37 @@
+# CSV files with course data
+*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Old versions and test files
+old/
+
+# Schedule folders with potential sensitive data
+*_schedule/
+
+# API tokens or config files with secrets
+.env
+config.ini
+secrets.json
